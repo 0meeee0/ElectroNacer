@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    background:linear-gradient( to right,
+        #27dbdb 0%,
+        #B0DB43 100%
+    ) ;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+form{
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    height: 60vh;
+    width: 35vw;
+    /* padding-bottom: 2rem; */
+    margin: auto;
+    margin-top: 4rem;
+}
+
+label{
+    border:none;
+    background: transparent;
+}
+
+.bb{
+    border-bottom: 2px solid black;
+}
+
+.brdr{
+    border-radius: 10px;
+}
+
+.ma{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.txt{
+    padding-left: .5rem;
+    width: 60%;
+    margin-bottom: 2rem;
+}
+
+button{
+    width: 25%;
+    margin-bottom: 2rem;
+}
